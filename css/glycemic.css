@@ -1,0 +1,119 @@
+/* 
+    Document   : iruiz
+    Created on : 21.10.2011, 11:20:26
+    Author     : antti
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: inline;
+    font-size: xx-large;
+}
+
+div.principal {
+    text-align: left;
+}
+
+div.form {
+    text-align: left;
+    font-size: xx-large;
+}
+
+div.menudiv {
+    text-align: left; 
+}
+
+div.header {
+    text-align: left;
+}
+div.footer {
+
+    text-align: left;
+    background-color: lightblue;
+    font-size: xx-large;
+}
+body {
+    background-color: azure; 
+    font-family: arial;
+}
+
+a {
+    color: #0000ee;
+}
+
+a:link { color: black; }
+a:visited { color: darkblue; } 
+
+a.menuitem {
+    padding: 2px; font-size: xx-large;
+    background-image: url(../images/harmaapalkki.png);    
+}
+
+table { display: inline-table; vertical-align: top; max-width: 500px; width: 90%; 
+        text-align: left; background-color: ghostwhite; 
+        border: darkblue thin solid; padding: none; table-layout: auto;
+}
+
+table.datain {
+    outline-style: double;
+    border-style: none;
+    border-left-style: dotted;
+    border-bottom-style: dotted;    
+}
+
+td {
+    min-height: 20px;
+    border-style: none;
+    border-left-style: dotted;
+    border-bottom-style: dotted;
+    empty-cells: show;
+
+}
+
+tr {
+    min-height: 12px;
+    border-style: mone;
+    padding: 0px;
+}
+
+td.sidemenu {
+    background-color: orange; text-align: left; vertical-align: top; padding: 10px;
+}
+
+td.left {
+
+}
+
+td.center {
+
+}
+
+td.right {
+
+}
+
+td.datain {
+    border-width: 1px;
+    border-color: red;
+}
+
+input {
+    border-style: inset;
+    padding: 0px;
+}
+
+iframe.showpanel {
+    width: 90%;
+    border: none;
+}
+
+hr {
+    line-height: 4px; color: blue; 
+}
+
